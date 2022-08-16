@@ -13,7 +13,7 @@ public class Fb {
 		
 	WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
-	driver.get("https://www.facebook.com/");
+	driver.get("https:/.facebook.com");
 	String fb = driver.getCurrentUrl();
 	System.out.println(fb);
 }
